@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6;
+}
+
+.navbar{
+display: flex;  
+align-items: center;
+padding: 5px;
+background-color: #Ff6600;   
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;    
+}
+
+.navbar img{
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li a{
+    /* text-align: center; */
+    /* justify-content: center; */
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 4px;
+
+}
+
+.navbar li a:hover{
+    text-decoration: none;
+    color: #Ff6600;
+    background-color: black;
+    padding: 5px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #Ff6600;
+    color: white;
+      }
+
+audio::-webkit-media-controls-play-button {
+    background-color: yellow;
+        border-radius: 50%;}
+
+audio::-webkit-media-controls-current-time-display {
+            color: #fff;
+          }
+
+          audio::-webkit-media-controls-time-remaining-display {
+            color: yellow;
+          }
+
+          audio::-webkit-media-controls-mute-button {
+            background-color: yellow;
+            border-radius: 50%;
+          }
+
+
+          .myform{
+            background-color: #Ff6600;
+            width: 30%;
+            padding: 30px;
+            align-items: center;
+            justify-content: center;
+            margin: 50px auto;
+          }
+
+          #submitbtn{
+            padding: 4px;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+          }
+
+          legend{
+            text-align: center;
+            align-items: center;
+            border-radius: 10px;
+          }
+
+          .myform input{
+         margin: 10px;
+         border: none;
+          }
+
+          .joey{
+        text-align: center;
+        margin-top: 30px;
+          }
+
+    .abujaproject{
+        display: inline-flex;
+        background-color: black;
+        color: rgb(65, 27, 27);
+        margin: 35px;
+        width: 35%;
+        padding: 20px;
+    }
+
+    .nextone{
+        margin-top: 34px;
+    }
+
+    .aboutus{
+        background-color: grey;
+        color: rgb(59, 12, 12);
+        margin-top: 40px;
+        margin-left: 35px;
+        margin-right: 35px;
+        text-align: justify;
+    }
+    .footer{
+    
+        color: rgb(134, 131, 131);
+        margin: 20px;
+        padding: 10px;
+        width: 100%;
+        font-size: x-small;
+    }
+
+    .mylist{
+        padding: 30px;
+    }
